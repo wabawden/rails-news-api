@@ -1,1 +1,29 @@
 // Specific CSS for your home-page
+body {
+  background-color: darkcyan;
+}
+
+h1 {
+  color: whitesmoke;
+  font-family: 'Archivo Black', sans-serif;
+  margin-bottom: 0px;
+  line-height: 0.7;
+  font-size: 64px;
+}
+.title {
+  color: lightgray;
+}
+
+.header {
+  margin-top: 24px;
+  margin-bottom: 48px;
+}
+
+.header-text {
+  .white {
+    color: whitesmoke;
+  }
+  .grey {
+    color: lightgray;
+  }
+}

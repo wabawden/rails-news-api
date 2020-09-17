@@ -1,2 +1,31 @@
-<h1>Pages#home</h1>
-<p>Find me in app/views/pages/home.html.erb</p>
+
+
+<div class="header text-center">
+<h1 class="header-text d-flex flex-wrap justify-content-center">
+  <span class="grey">THE</span>
+  <span class="white">NEWS</span>
+  <span class="grey">IN</span>
+  <span class="white">30</span>
+  <span class="grey">WORDS</span>
+</h1>
+</div>
+  <div class="d-flex flex-wrap flex-row justify-content-between text-center">
+    <div>
+    <h1 class="title">BBC NEWS</h1>
+      <% @top_ten_bbc.each do |word| %>
+        <h1><%= word %></h1>
+      <% end %>
+    </div>
+    <div>
+    <h1 class="title">FOX NEWS</h1>
+      <% @top_ten_fox.each do |word| %>
+        <h1><%= word %></h1>
+      <% end %>
+    </div>
+    <div>
+    <h1 class="title">BUZZFEED</h1>
+      <% @top_ten_buzz.each do |word| %>
+        <h1><%= word %></h1>
+      <% end %>
+    </div>
+  </div>
