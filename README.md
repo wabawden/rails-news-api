@@ -6,7 +6,7 @@ Uses [newsapi.org's API](https://newsapi.org/) and displays a list of the top te
 
 What can be done with this info? How else could it be displayed? Feel free to contribute!
 
-![Screenshot](../../blob/master/app/assets/images/screenshot.png?raw=true)
+![Screenshot](https://raw.githubusercontent.com/wabawden/rails-news-api/master/app/assets/images/screenshot.PNG)
 
 
 Rails app generated with [lewagon/rails-templates](https://github.com/lewagon/rails-templates), created by the [Le Wagon coding bootcamp](https://www.lewagon.com) team.
